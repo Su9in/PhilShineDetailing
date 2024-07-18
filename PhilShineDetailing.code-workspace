@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "PhilShineDetailing",
+			"path": "."
+		},
+		{
+			"name": "Resources",
+			"path": "../Resources"
+		},
+		{
+			"name": "js",
+			"path": "../js"
+		}
+	],
+	"settings": {}
+}
