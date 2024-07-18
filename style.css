@@ -70,6 +70,6 @@ model-viewer{
     height: 600px;   
 }
 .script{
-    position: absolute;
-    
+    position: fixed;
+
 }
