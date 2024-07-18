@@ -42,6 +42,13 @@ nav{
     justify-content: center;
     align-items: center;
     width: 100%;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+}
+.nav-div:hover{
+    background-color: #5AD663;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
 }
 .main-bck{
     background-color: rgba(0,0,0,0);
@@ -75,3 +82,23 @@ model-viewer{
     top: 25px;
     left:00%;
 }
+.mouse-cursor-gradient-tracking div {
+    position: relative;
+  }
+  
+  .mouse-cursor-gradient-tracking::before {
+    --size: 0;
+    content: '';
+    position: absolute;
+    left: var(--x);
+    top: var(--y);
+    width: var(--size);
+    height: var(--size);
+    background: radial-gradient(circle closest-side, pink, transparent);
+    transform: translate(-50%, -50%);
+    transition: width 0.2s ease, height 0.2s ease;
+  }
+  
+  .mouse-cursor-gradient-tracking:hover::before {
+    --size: 200px;
+  }
