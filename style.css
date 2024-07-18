@@ -71,6 +71,7 @@ model-viewer{
 }
 .script{
     position: absolute;
-    z-index: 0;
-    top: 10px;
+    z-index: -1;
+    top: 25px;
+    left:00%;
 }
